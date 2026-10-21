@@ -10,8 +10,6 @@ name: "Nightly Canary"
 # very early.
 
 on:
-  schedule:
-    - cron: "0 1 * * *"
   workflow_dispatch:
 
 permissions:
